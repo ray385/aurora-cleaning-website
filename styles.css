@@ -80,13 +80,13 @@ a:hover{opacity:.9}
   display:flex;
   align-items:center;
   gap:12px;
-  min-width: 240px;
+  min-width: 0px;
 }
 
 .logo{
-  border-radius:14px;
-  width:56px;
-  height:56px;
+  border-radius:12px;
+  width:88px;
+  height:auto;
   object-fit:contain;
   box-shadow: 0 10px 28px rgba(0,0,0,.35);
   border:1px solid rgba(255,255,255,.08);
