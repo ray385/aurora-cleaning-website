@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aurora Cleaning Ltd | Professional Cleaning Services</title>
+  <meta name="description" content="Aurora Cleaning Ltd provides residential and commercial cleaning services in London and surrounding areas. Website currently under development." />
+  <meta name="theme-color" content="#0b1220" />
+
+  <link rel="icon" href="assets/aurora-logo.jpeg" />
+  <link rel="preload" href="assets/aurora-logo.jpeg" as="image" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- 1) Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+       <img src="images/logo.png" alt="Aurora Cleaning Ltd logo" class="logo">
+        <div class="brand-text">
+          <span class="brand-name">Aurora Cleaning Ltd</span>
+          <span class="brand-tag">Professional Cleaning Services</span>
+        </div>
+      </div>
+
+      <div class="header-cta">
+        <div class="contact-mini">
+          <a class="mini-link" href="mailto:enquiries.aurora@aegisgroupholdings.co.uk">enquiries.aurora@aegisgroupholdings.co.uk</a>
+          <a class="mini-link" href="tel:+443333399386">0333 339 9386</a>
+        </div>
+        <a class="btn btn-primary" href="#quote">Request a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 2) Hero Section -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Liverpool & surrounding areas</p>
+          <h1>Professional Cleaning Services</h1>
+          <p class="lead">
+            Aurora Cleaning Ltd provides reliable residential and commercial cleaning services.
+            <br class="hide-sm" />Our website is currently under development.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#quote">Request a Quote</a>
+            <a class="btn btn-ghost" href="#services">View Services</a>
+          </div>
+
+          <p class="hero-note">Now taking enquiries</p>
+        </div>
+
+        <div class="hero-card" role="presentation" aria-hidden="true">
+          <div class="glow"></div>
+          <div class="hero-card-inner">
+            <div class="stat">
+              <span class="stat-label">Enquiries</span>
+              <span class="stat-value">Open</span>
+            </div>
+            <div class="divider"></div>
+            <div class="stat">
+              <span class="stat-label">Services</span>
+              <span class="stat-value">Residential & Commercial</span>
+            </div>
+            <div class="divider"></div>
+            <div class="stat">
+              <span class="stat-label">Website</span>
+              <span class="stat-value">Under development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <!-- 3) About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2>About Aurora Cleaning Ltd</h2>
+        <p>
+          Aurora Cleaning Ltd is a UK-based cleaning services company offering professional cleaning solutions for
+          residential and commercial properties.
+        </p>
+        <p>
+          The business is in its initial launch phase, with services being rolled out and systems currently being put in place.
+          This website is under active development as part of our setup process.
+        </p>
+      </div>
+    </section>
+
+    <!-- 4) Services -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <ul class="service-list">
+          <li>Residential cleaning</li>
+          <li>Office and workspace cleaning</li>
+          <li>End-of-tenancy cleaning</li>
+          <li>One-off and scheduled cleans</li>
+          <li>Property and landlord cleaning support</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5) Service Area -->
+    <section class="section" id="area">
+      <div class="container">
+        <h2>Service Area</h2>
+        <p>
+          Aurora Cleaning Ltd operates in London and surrounding areas.
+          Specific locations and availability are confirmed per enquiry.
+        </p>
+      </div>
+    </section>
+
+    <!-- 6) Enquiry Form -->
+    <section class="section section-alt" id="quote">
+      <div class="container">
+        <div class="form-wrap">
+          <div class="form-intro">
+            <h2>Request a Quote</h2>
+            <p class="muted">
+              Send an enquiry and we’ll respond with availability and next steps.
+            </p>
+
+            <div class="contact-card">
+              <p class="contact-line"><strong>Email:</strong> <a href="mailto:info@auroracleaning.co.uk">info@auroracleaning.co.uk</a></p>
+              <p class="contact-line"><strong>Phone:</strong> <a href="tel:+443333399386">0333 339 9386</a></p>
+            </div>
+          </div>
+
+          <form class="quote-form" id="quoteForm" novalidate>
+            <div class="grid">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+
+              <label>
+                <span>Phone</span>
+                <input type="tel" name="phone" autocomplete="tel" required />
+              </label>
+
+              <label>
+                <span>Property type</span>
+                <select name="propertyType" required>
+                  <option value="" selected disabled>Select…</option>
+                  <option>Residential</option>
+                  <option>Commercial</option>
+                </select>
+              </label>
+
+              <label class="full">
+                <span>Service required</span>
+                <input type="text" name="service" placeholder="e.g. End-of-tenancy cleaning" required />
+              </label>
+
+              <label class="full">
+                <span>Message</span>
+                <textarea name="message" rows="5" placeholder="Tell us what you need, preferred dates, and any details…" required></textarea>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Send Enquiry</button>
+              <p class="form-hint muted">
+                This draft form opens your email app to send the enquiry to <strong>info@auroracleaning.co.uk</strong>.
+              </p>
+            </div>
+
+            <p class="form-success" id="formSuccess" role="status" aria-live="polite" hidden>
+              Thank you — we’ll be in touch shortly.
+            </p>
+
+            <p class="form-error" id="formError" role="alert" hidden>
+              Please complete all fields with a valid email address.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7) Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-title">Aurora Cleaning Ltd</p>
+        <p class="muted">Cleaning services for residential and commercial properties</p>
+      </div>
+
+      <div class="footer-links">
+        <p><strong>Email:</strong> <a href="mailto:info@auroracleaning.co.uk">info@auroracleaning.co.uk</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+443333399386">0333 339 9386</a></p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Aurora Cleaning Ltd. All rights reserved.</p>
+      <p class="muted">Website currently under development.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
