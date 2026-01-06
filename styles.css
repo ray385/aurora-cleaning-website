@@ -83,11 +83,11 @@ a:hover{opacity:.9}
   min-width: 240px;
 }
 
-.brand-logo{
+.logo{
   border-radius:14px;
   width:56px;
   height:56px;
-  object-fit:cover;
+  object-fit:contain;
   box-shadow: 0 10px 28px rgba(0,0,0,.35);
   border:1px solid rgba(255,255,255,.08);
 }
